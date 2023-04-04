@@ -20,6 +20,6 @@
 
 ![Son Nguyen's GitHub stats](https://github-readme-stats.vercel.app/api?username=KuaqSon&show_icons=true&theme=graywhite)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact)](https://github.com/KuaqSon)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact)]([https://github.com/KuaqSon](https://github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact))
 
 
