@@ -11,9 +11,3 @@
 
 
 [![My Skills](https://skillicons.dev/icons?i=angular,bootstrap,bash,cs,django,docker,dotnet,express,js,html,css,mongodb,mysql,postgres,nestjs,nextjs,nodejs,py,rails,react,ts)](https://skillicons.dev)
-
----
-
-<img src="https://github-readme-stats.vercel.app/api?username=KuaqSon&show_icons=true&theme=graywhite" width="100%" height="auto">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact" width="100%" height="auto">
