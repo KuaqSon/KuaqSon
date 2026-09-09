@@ -1,4 +1,4 @@
-name: generate snake
+name: generate cards
 
 on:
   schedule:
@@ -14,11 +14,17 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%231a1a1a&color_dots=%23d4d4d2,%23ffd3bf,%23ffa77f,%23ff8247,%23ff5f1f
+      - name: render telemetry cards
+        run: python3 .github/scripts/render.py dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

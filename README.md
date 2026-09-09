@@ -68,11 +68,11 @@
 
 <div align="center">
 
-<a href="https://github.com/KuaqSon/yt-music"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=yt-music&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&icon_color=ff5f1f&border_color=c9c9c7" /></a>
-<a href="https://github.com/KuaqSon/mokuton"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=mokuton&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&icon_color=ff5f1f&border_color=c9c9c7" /></a>
+<a href="https://github.com/KuaqSon/yt-music"><img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/pin-yt-music.svg" /></a>
+<a href="https://github.com/KuaqSon/mokuton"><img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/pin-mokuton.svg" /></a>
 <br/>
-<a href="https://github.com/KuaqSon/flash-commit"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=flash-commit&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&icon_color=ff5f1f&border_color=c9c9c7" /></a>
-<a href="https://github.com/KuaqSon/nestjs-starter"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=nestjs-starter&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&icon_color=ff5f1f&border_color=c9c9c7" /></a>
+<a href="https://github.com/KuaqSon/flash-commit"><img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/pin-flash-commit.svg" /></a>
+<a href="https://github.com/KuaqSon/nestjs-starter"><img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/pin-nestjs-starter.svg" /></a>
 
 </div>
 
@@ -82,10 +82,10 @@
 
 <div align="center">
 
-<img height="165" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=KuaqSon&show_icons=true&include_all_commits=true&count_private=true&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&icon_color=ff5f1f&border_color=c9c9c7" />
-<img height="165" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact&langs_count=8&bg_color=e6e6e4&title_color=1a1a1a&text_color=3a3a3a&border_color=c9c9c7" />
+<img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/stats.svg" />
+<img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/langs.svg" />
 <br/>
-<img src="https://github-readme-streak-stats-eight.vercel.app?user=KuaqSon&background=e6e6e4&border=c9c9c7&ring=ff5f1f&fire=ff5f1f&currStreakNum=1a1a1a&sideNums=1a1a1a&currStreakLabel=1a1a1a&sideLabels=3a3a3a&dates=6b6b69&stroke=c9c9c7" />
+<img src="https://raw.githubusercontent.com/KuaqSon/KuaqSon/output/streak.svg" />
 
 <br/><br/>
 
