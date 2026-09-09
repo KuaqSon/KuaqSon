@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" font-family="'SF Mono','Menlo','Consolas','Liberation Mono',monospace">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#d4d4d4" stroke-width="0.6"/>
+    </pattern>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- device body -->
+  <rect x="10" y="10" width="880" height="260" rx="14" fill="#e6e6e4" stroke="#c9c9c7" stroke-width="1"/>
+  <rect x="10" y="10" width="880" height="260" rx="14" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- screws -->
+  <g fill="#cfcfcd" stroke="#b5b5b3" stroke-width="0.8">
+    <circle cx="28" cy="28" r="4"/><circle cx="872" cy="28" r="4"/>
+    <circle cx="28" cy="252" r="4"/><circle cx="872" cy="252" r="4"/>
+  </g>
+
+  <!-- top label strip -->
+  <g font-size="10" fill="#6b6b69" letter-spacing="1.5">
+    <text x="48" y="42">NQSON–01</text>
+    <text x="150" y="42">PRODUCT ENGINEER UNIT</text>
+    <text x="700" y="42" text-anchor="end">REV 2026.09</text>
+    <line x1="48" y1="52" x2="700" y2="52" stroke="#b5b5b3" stroke-width="0.8"/>
+  </g>
+
+  <!-- name -->
+  <text x="48" y="128" font-size="64" font-weight="700" fill="#1a1a1a" letter-spacing="-2">son nguyen</text>
+  <text x="48" y="160" font-size="14" fill="#3a3a3a" letter-spacing="0.5">full-stack product engineer · ho chi minh city</text>
+
+  <!-- status line with blinking cursor -->
+  <g font-size="12" fill="#1a1a1a">
+    <text x="48" y="212">&gt; building products end to end · ai in the loop</text>
+    <rect x="392" y="202" width="7" height="12" fill="#ff5f1f">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- bottom labels -->
+  <g font-size="9" fill="#8a8a88" letter-spacing="1.2">
+    <text x="48" y="246">WEB</text><text x="90" y="246">MOBILE</text><text x="150" y="246">API</text><text x="188" y="246">INFRA</text><text x="238" y="246">AI</text>
+    <g fill="#ff5f1f"><circle cx="41" cy="243" r="1.8"/><circle cx="83" cy="243" r="1.8"/><circle cx="143" cy="243" r="1.8"/><circle cx="181" cy="243" r="1.8"/><circle cx="231" cy="243" r="1.8"/></g>
+  </g>
+
+  <!-- ===== control panel (right) ===== -->
+  <!-- knobs -->
+  <g transform="translate(560,110)">
+    <g filter="url(#shadow)">
+      <circle r="26" fill="#f4f4f2" stroke="#b5b5b3" stroke-width="1"/>
+    </g>
+    <circle r="20" fill="#1a1a1a"/>
+    <g>
+      <line x1="0" y1="-6" x2="0" y2="-17" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="-120;120;-120" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+    <text y="46" font-size="9" fill="#6b6b69" text-anchor="middle" letter-spacing="1.2">BUILD</text>
+  </g>
+
+  <g transform="translate(640,110)">
+    <g filter="url(#shadow)">
+      <circle r="26" fill="#f4f4f2" stroke="#b5b5b3" stroke-width="1"/>
+    </g>
+    <circle r="20" fill="#ff5f1f"/>
+    <g>
+      <line x1="0" y1="-6" x2="0" y2="-17" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="60;-140;60" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+    <text y="46" font-size="9" fill="#6b6b69" text-anchor="middle" letter-spacing="1.2">SHIP</text>
+  </g>
+
+  <g transform="translate(720,110)">
+    <g filter="url(#shadow)">
+      <circle r="26" fill="#f4f4f2" stroke="#b5b5b3" stroke-width="1"/>
+    </g>
+    <circle r="20" fill="#f4f4f2" stroke="#1a1a1a" stroke-width="1.5"/>
+    <g>
+      <line x1="0" y1="-6" x2="0" y2="-17" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="-40;160;-40" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </g>
+    <text y="46" font-size="9" fill="#6b6b69" text-anchor="middle" letter-spacing="1.2">PRODUCT</text>
+  </g>
+
+  <!-- level meter -->
+  <g transform="translate(790,72)">
+    <rect x="-6" y="-6" width="72" height="88" rx="4" fill="#1a1a1a"/>
+    <g fill="#ff5f1f">
+      <rect x="0" y="0" width="8" height="76" opacity="0.15"/>
+      <g transform="translate(0,76) scale(1,-1)"><rect x="0" y="0" width="8" height="30"><animate attributeName="height" values="20;60;35;70;25;50;20" dur="2.2s" repeatCount="indefinite"/></rect></g>
+      <rect x="13" y="0" width="8" height="76" opacity="0.15"/>
+      <g transform="translate(0,76) scale(1,-1)"><rect x="13" y="0" width="8" height="30"><animate attributeName="height" values="40;25;65;30;55;20;40" dur="1.9s" repeatCount="indefinite"/></rect></g>
+      <rect x="26" y="0" width="8" height="76" opacity="0.15"/>
+      <g transform="translate(0,76) scale(1,-1)"><rect x="26" y="0" width="8" height="30"><animate attributeName="height" values="30;70;20;45;60;35;30" dur="2.5s" repeatCount="indefinite"/></rect></g>
+      <rect x="39" y="0" width="8" height="76" opacity="0.15"/>
+      <g transform="translate(0,76) scale(1,-1)"><rect x="39" y="0" width="8" height="30"><animate attributeName="height" values="55;30;45;70;25;60;55" dur="2.1s" repeatCount="indefinite"/></rect></g>
+      <rect x="52" y="0" width="8" height="76" opacity="0.15"/>
+      <g transform="translate(0,76) scale(1,-1)"><rect x="52" y="0" width="8" height="30"><animate attributeName="height" values="25;50;70;30;40;65;25" dur="2.4s" repeatCount="indefinite"/></rect></g>
+    </g>
+    <text x="30" y="96" font-size="9" fill="#6b6b69" text-anchor="middle" letter-spacing="1.2">ACTIVITY</text>
+  </g>
+
+  <!-- LED row + buttons -->
+  <g transform="translate(560,200)">
+    <g>
+      <circle cx="0" cy="0" r="4" fill="#ff5f1f"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="16" cy="0" r="4" fill="#ff5f1f"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="32" cy="0" r="4" fill="#ff5f1f"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="48" cy="0" r="4" fill="#1a1a1a" opacity="0.25"/>
+    </g>
+    <text x="0" y="22" font-size="9" fill="#6b6b69" letter-spacing="1.2">AI ASSIST</text>
+
+    <g transform="translate(120,-12)">
+      <rect width="44" height="24" rx="4" fill="#f4f4f2" stroke="#b5b5b3"/>
+      <text x="22" y="16" font-size="9" fill="#1a1a1a" text-anchor="middle" letter-spacing="1">TS</text>
+    </g>
+    <g transform="translate(172,-12)">
+      <rect width="44" height="24" rx="4" fill="#f4f4f2" stroke="#b5b5b3"/>
+      <text x="22" y="16" font-size="9" fill="#1a1a1a" text-anchor="middle" letter-spacing="1">PY</text>
+    </g>
+    <g transform="translate(224,-12)">
+      <rect width="44" height="24" rx="4" fill="#1a1a1a"/>
+      <text x="22" y="16" font-size="9" fill="#ffffff" text-anchor="middle" letter-spacing="1">LLM</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="90" viewBox="0 0 900 90" font-family="'SF Mono','Menlo','Consolas','Liberation Mono',monospace">
+  <rect x="10" y="10" width="880" height="70" rx="12" fill="#e6e6e4" stroke="#c9c9c7" stroke-width="1"/>
+  <g fill="#cfcfcd" stroke="#b5b5b3" stroke-width="0.8">
+    <circle cx="28" cy="28" r="3.5"/><circle cx="872" cy="28" r="3.5"/>
+    <circle cx="28" cy="62" r="3.5"/><circle cx="872" cy="62" r="3.5"/>
+  </g>
+
+  <!-- ticker window -->
+  <rect x="48" y="30" width="360" height="30" rx="4" fill="#1a1a1a"/>
+  <clipPath id="win"><rect x="52" y="30" width="352" height="30"/></clipPath>
+  <g clip-path="url(#win)" font-size="11" fill="#ff5f1f" letter-spacing="1">
+    <text y="49">
+      <animate attributeName="x" values="60;-640" dur="14s" repeatCount="indefinite"/>
+      BUILD · SHIP · PRODUCT · AI IN THE LOOP · TYPESCRIPT BY DAY · PYTHON FOR DATA · SHIP SMALL SHIP OFTEN · DOCKER EVERYWHERE · THANKS FOR STOPPING BY ·
+    </text>
+  </g>
+
+  <!-- pulse line -->
+  <g transform="translate(440,45)">
+    <polyline points="0,0 30,0 40,-12 50,12 60,0 90,0 100,-8 110,8 120,0 160,0" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" values="200;0;0;-200" keyTimes="0;0.5;0.7;1" dur="3s" repeatCount="indefinite"/>
+    </polyline>
+    <text x="80" y="26" font-size="8" fill="#8a8a88" text-anchor="middle" letter-spacing="1.2">HEARTBEAT</text>
+  </g>
+
+  <!-- power -->
+  <g transform="translate(660,45)">
+    <circle r="11" fill="#f4f4f2" stroke="#b5b5b3"/>
+    <circle r="6" fill="#ff5f1f"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text y="26" font-size="8" fill="#8a8a88" text-anchor="middle" letter-spacing="1.2">ON</text>
+  </g>
+
+  <g font-size="9" fill="#6b6b69" letter-spacing="1.5">
+    <text x="700" y="41">NQSON–01</text>
+    <text x="700" y="55">github.com/KuaqSon</text>
+    <text x="860" y="48" text-anchor="end" font-size="14" fill="#1a1a1a">●</text>
+  </g>
+</svg>
