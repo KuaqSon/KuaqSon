@@ -61,11 +61,11 @@ AI-native by default.
 
 <div align="center">
 
-<a href="https://github.com/KuaqSon/yt-music"><img src="https://github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=yt-music&theme=tokyonight&hide_border=true" /></a>
-<a href="https://github.com/KuaqSon/mokuton"><img src="https://github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=mokuton&theme=tokyonight&hide_border=true" /></a>
+<a href="https://github.com/KuaqSon/yt-music"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=yt-music&theme=tokyonight&hide_border=true" /></a>
+<a href="https://github.com/KuaqSon/mokuton"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=mokuton&theme=tokyonight&hide_border=true" /></a>
 <br/>
-<a href="https://github.com/KuaqSon/flash-commit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=flash-commit&theme=tokyonight&hide_border=true" /></a>
-<a href="https://github.com/KuaqSon/nestjs-starter"><img src="https://github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=nestjs-starter&theme=tokyonight&hide_border=true" /></a>
+<a href="https://github.com/KuaqSon/flash-commit"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=flash-commit&theme=tokyonight&hide_border=true" /></a>
+<a href="https://github.com/KuaqSon/nestjs-starter"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=KuaqSon&repo=nestjs-starter&theme=tokyonight&hide_border=true" /></a>
 
 </div>
 
@@ -73,8 +73,8 @@ AI-native by default.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KuaqSon&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="165" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=KuaqSon&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+<img height="165" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=KuaqSon&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 <br/>
 <img src="https://streak-stats.demolab.com?user=KuaqSon&theme=tokyonight&hide_border=true" />
 
